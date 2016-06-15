@@ -1,0 +1,17 @@
+{"ARC_ORDER": {
+    "ORDER": "INVENTORY_GOODS_ISSUE_DEBIT",
+    "INSTRUCTIONS": {
+        "ItemCode": "123fasda34",
+        "Whscode": "123dadq",
+        "BatchCode": xs21daf43sd,
+        "ReasonCode": 001,
+	"Quantity": 10,
+	"PostingDate": "06/06/2016 00:00:00",
+	"DocumentDate": "6/6/2016 00:00:00",
+	"GLAccount": "jlk432jhy",
+	"BusinessUnit": "23",
+	"Remarks": "dsfdsfdsfs",
+	"JournalRemarks": "dfsdfsfsdf",
+	"Reference": "ggdf"
+    }
+}}

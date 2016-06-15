@@ -1,0 +1,59 @@
+[6/14/2016 3:34:35 PM][       JsonStringToDataTable()] jsonString :{"ARC_ORDER": {"ORDER": "INVENTORY_GOODS_RECEIPT",
+
+
+[6/14/2016 3:34:35 PM][       JsonStringToDataTable()] jsonString : [{"ItemCode":"ITEM0000000527","Whscode":"BLK_01","BatchCode":"LOT1","ReasonCode":"001","Quantity":"10","Price":"13","PostingDate":"6/12/2016","DocumentDate":"6/12/2016","GLAccount":"510200100","BusinessUnit":"DSG","Remarks":"","JournalRemarks":"","Reference":"REF123"},{"ItemCode":"ITEM0000000004","Whscode":"BLK_08","BatchCode":"","ReasonCode":"002","Quantity":"20","Price":"12","PostingDate":"6/11/2016","DocumentDate":"6/11/2016","GLAccount":"510200100","BusinessUnit":"QC","Remarks":"","JournalRemarks":"","Reference":""},{"ItemCode":"ITEM0000009414","Whscode":"BLK_08","BatchCode":"ABC123","ReasonCode":"002","Quantity":"20","Price":"12","PostingDate":"6/11/2016","DocumentDate":"6/11/2016","GLAccount":"510600600","BusinessUnit":"QC","Remarks":"Remarks","JournalRemarks":"Journal remarks","Reference":"ref"}]}}
+
+
+[6/14/2016 3:35:16 PM][       JsonStringToDataTable()] Row data  : "ItemCode":"ITEM0000000527","Whscode":"BLK_01","BatchCode":"LOT1","ReasonCode":"001","Quantity":"10","Price":"13","PostingDate":"6/12/2016","DocumentDate":"6/12/2016","GLAccount":"510200100","BusinessUnit":"DSG","Remarks":"","JournalRemarks":"","Reference":"REF123"
+[6/14/2016 3:35:16 PM][       JsonStringToDataTable()] Row data  :"ItemCode":"ITEM0000000004","Whscode":"BLK_08","BatchCode":"","ReasonCode":"002","Quantity":"20","Price":"12","PostingDate":"6/11/2016","DocumentDate":"6/11/2016","GLAccount":"510200100","BusinessUnit":"QC","Remarks":"","JournalRemarks":"","Reference":""
+[6/14/2016 3:35:16 PM][       JsonStringToDataTable()] Row data  :"ItemCode":"ITEM0000009414","Whscode":"BLK_08","BatchCode":"ABC123","ReasonCode":"002","Quantity":"20","Price":"12","PostingDate":"6/11/2016","DocumentDate":"6/11/2016","GLAccount":"510600600","BusinessUnit":"QC","Remarks":"Remarks","JournalRemarks":"Journal remarks","Reference":"ref"
+[6/14/2016 3:35:16 PM][       JsonStringToDataTable()] Table rows count :3
+[6/14/2016 3:35:16 PM][ SaveTheInventoryGoodRecipet()] before MandatoryMaxLengthValidation :3
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] rows no :0
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :ITEMCODE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :WHSCODE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :BATCHCODE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] BATCHCODE :LOT1
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] BATCHCODE con.. true :LOT1
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :REASONCODE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :QUANTITY
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :PRICE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :POSTINGDATE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :DOCUMENTDATE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :GLACCOUNT
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :BUSINESSUNIT
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :REMARKS
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :JOURNALREMARKS
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :REFERENCE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] rows no :1
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :ITEMCODE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :WHSCODE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :BATCHCODE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] BATCHCODE :
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :REASONCODE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :QUANTITY
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :PRICE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :POSTINGDATE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :DOCUMENTDATE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :GLACCOUNT
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :BUSINESSUNIT
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :REMARKS
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :JOURNALREMARKS
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :REFERENCE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] rows no :2
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :ITEMCODE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :WHSCODE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :BATCHCODE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] BATCHCODE :ABC123
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] BATCHCODE con.. true :ABC123
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :REASONCODE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :QUANTITY
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :PRICE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :POSTINGDATE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :DOCUMENTDATE
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :GLACCOUNT
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :BUSINESSUNIT
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :REMARKS
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :JOURNALREMARKS
+[6/14/2016 3:35:16 PM][MandatoryMaxLengthValidation()] ColumnsName :REFERENCE
+[6/14/2016 3:35:16 PM][ SaveTheInventoryGoodRecipet()] After MandatoryMaxLengthValidation :3

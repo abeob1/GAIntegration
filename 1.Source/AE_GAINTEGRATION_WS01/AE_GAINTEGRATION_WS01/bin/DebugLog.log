@@ -1,0 +1,45 @@
+[6/13/2016 6:42:57 PM][SaveTheInventoryGoodIssue] Starting Function 
+[6/13/2016 6:42:58 PM][SaveTheInventoryGoodIssue] Before converting datatable 
+[6/13/2016 6:42:58 PM][InvGoodsIssue] before connecting ConnectToTargetCompany 
+[6/13/2016 6:42:58 PM][ConnectToTargetCompany()] begin : WIN-D6KRARO05H9\SQLSERVER2012;GATeam;sa;Sa12345;WIN-D6KRARO05H9:30000;manager2;1234;
+[6/13/2016 6:42:58 PM][ConnectToTargetCompany()] before oDICompany connecting
+[6/13/2016 6:42:58 PM][ConnectToTargetCompany()] after oDICompany connecting
+[6/13/2016 6:42:58 PM][InvGoodsIssue] After connecting ConnectToTargetCompany 
+[6/13/2016 6:42:58 PM][InvGoodsIssue] Company DB Name: GATeam
+[6/13/2016 6:42:58 PM][InvGoodsIssue] before oGoodsIssue.Add()
+[6/13/2016 6:42:58 PM][InvGoodsIssue] New Docentry 1021
+[6/13/2016 6:42:58 PM][SaveTheInventoryGoodIssue] After converting datatable 
+[6/14/2016 11:21:20 AM][SaveTheInventoryGoodIssue] Starting Function 
+[6/14/2016 12:58:05 PM][ConnectToTargetCompany()] Starting Function 
+[6/14/2016 12:58:05 PM][ConnectToTargetCompany()] Calling ConnectToTargetCompany() 
+[6/14/2016 12:58:05 PM][ConnectToTargetCompany()] Starting Function 
+[6/14/2016 12:58:05 PM][ConnectToTargetCompany()] After Initializing Company Connection 
+[6/14/2016 12:58:05 PM][ConnectToTargetCompany()] Connecting the Database...
+[6/14/2016 12:58:08 PM][ConnectToTargetCompany()] Company Connection Established
+[6/14/2016 12:58:08 PM][ConnectToTargetCompany()] Completed With SUCCESS
+[6/14/2016 12:58:08 PM][ConnectToTargetCompany()] Completed With SUCCESS  
+[6/14/2016 1:27:57 PM][ConnectToTargetCompany()] Starting Function 
+[6/14/2016 1:27:57 PM][ConnectToTargetCompany()] Calling ConnectToTargetCompany() 
+[6/14/2016 1:27:57 PM][ConnectToTargetCompany()] Starting Function 
+[6/14/2016 1:27:57 PM][ConnectToTargetCompany()] After Initializing Company Connection 
+[6/14/2016 1:27:57 PM][ConnectToTargetCompany()] Connecting the Database...
+[6/14/2016 1:27:58 PM][ConnectToTargetCompany()] Company Connection Established
+[6/14/2016 1:27:58 PM][ConnectToTargetCompany()] Completed With SUCCESS
+[6/14/2016 1:27:58 PM][ConnectToTargetCompany()] Completed With SUCCESS  
+[6/14/2016 3:35:16 PM][SaveTheInventoryGoodRecipet()] Datatable rows count: 3
+[6/14/2016 3:35:16 PM][ConnectToTargetCompany()] Starting Function 
+[6/14/2016 3:35:16 PM][ConnectToTargetCompany()] Calling ConnectToTargetCompany() 
+[6/14/2016 3:35:16 PM][ConnectToTargetCompany()] Starting Function 
+[6/14/2016 3:35:16 PM][ConnectToTargetCompany()] After Initializing Company Connection 
+[6/14/2016 3:35:16 PM][ConnectToTargetCompany()] Connecting the Database...
+[6/14/2016 3:35:19 PM][ConnectToTargetCompany()] Company Connection Established
+[6/14/2016 3:35:19 PM][ConnectToTargetCompany()] Completed With SUCCESS
+[6/14/2016 3:35:19 PM][ConnectToTargetCompany()] Completed With SUCCESS  
+[6/14/2016 3:35:19 PM][InvGoodsReceipt] ItemCode Receipt : ITEM0000000527
+[6/14/2016 3:35:19 PM][InvGoodsReceipt] BatchCode : Y
+[6/14/2016 3:35:19 PM][InvGoodsReceipt] ItemCode Receipt : ITEM0000000004
+[6/14/2016 3:35:19 PM][InvGoodsReceipt] BatchCode : N
+[6/14/2016 3:35:19 PM][InvGoodsReceipt] ItemCode Receipt : ITEM0000009414
+[6/14/2016 3:35:19 PM][InvGoodsReceipt] BatchCode : Y
+[6/14/2016 3:35:19 PM][InvGoodsReceipt] before oGoodsReceipt.Add() : Y
+[6/14/2016 3:35:20 PM][InvGoodsReceipt] Success oGoodsReceipt.Add() : Y

@@ -1,0 +1,4 @@
+E:\GUNAA\AE_GAINTEGRATION_WS01\AE_GAIntegrationWSTest_WA\bin\AE_GAIntegrationWSTest_WA.dll
+E:\GUNAA\AE_GAINTEGRATION_WS01\AE_GAIntegrationWSTest_WA\bin\AE_GAIntegrationWSTest_WA.pdb
+E:\GUNAA\AE_GAINTEGRATION_WS01\AE_GAIntegrationWSTest_WA\obj\Debug\AE_GAIntegrationWSTest_WA.dll
+E:\GUNAA\AE_GAINTEGRATION_WS01\AE_GAIntegrationWSTest_WA\obj\Debug\AE_GAIntegrationWSTest_WA.pdb

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="E:\GUNAA\GAIntegrationWeb" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="06/14/2016 16:47:39" />
+    <file relUrl="Site.Master" publishTime="06/13/2016 13:47:11" />
+    <file relUrl="Account/Register.aspx" publishTime="06/03/2016 10:53:19" />
+    <file relUrl="bin/AE_GAIntegrationWSTest_WA.pdb" publishTime="06/14/2016 16:43:55" />
+    <file relUrl="Account/Web.config" publishTime="06/03/2016 10:53:19" />
+    <file relUrl="Account/Login.aspx" publishTime="06/03/2016 10:53:19" />
+    <file relUrl="Styles/Site.css" publishTime="06/03/2016 10:53:19" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="06/03/2016 10:53:19" />
+    <file relUrl="Account/ChangePassword.aspx" publishTime="06/03/2016 10:53:19" />
+    <file relUrl="Global.asax" publishTime="06/03/2016 10:53:19" />
+    <file relUrl="bin/AE_GAIntegrationWSTest_WA.dll" publishTime="06/14/2016 16:43:55" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="06/03/2016 10:53:19" />
+    <file relUrl="About.aspx" publishTime="06/03/2016 10:53:19" />
+    <file relUrl="Account/ChangePasswordSuccess.aspx" publishTime="06/03/2016 10:53:19" />
+    <file relUrl="Default.aspx" publishTime="06/13/2016 20:02:18" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="06/03/2016 10:53:19" />
+  </publishProfile>
+</publishData>
