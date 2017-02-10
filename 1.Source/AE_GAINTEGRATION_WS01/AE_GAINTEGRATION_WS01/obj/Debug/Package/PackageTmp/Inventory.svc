@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="AE_GAINTEGRATION_WS01.Inventory" CodeBehind="Inventory.svc.cs" %>
