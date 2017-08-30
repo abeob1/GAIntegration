@@ -1,0 +1,973 @@
+[08/18/2017 17:32:17][                                  Main()] Starting Addon startup function
+[08/18/2017 17:32:17][                                  Main()] Initializing public SBO Application object
+[08/18/2017 17:32:17][                                  Main()] Retriving SBO application company handle
+[08/18/2017 17:32:20][                                  Main()] Retrived SBO application company handle
+[08/18/2017 17:32:20][                                  Main()] Calling ConnectDICompSSO()
+[08/18/2017 17:32:20][                      ConnectDICompSSO()] Starting function
+[08/18/2017 17:32:57][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/18/2017 17:32:57][                                  Main()] Creating Event handler class
+[08/18/2017 17:32:57][                      Class_Initialize()] Starting function
+[08/18/2017 17:32:57][                      Class_Initialize()] Retriving SBO Application handle
+[08/18/2017 17:32:57][                      Class_Initialize()] Completed with SUCCESS
+[08/18/2017 17:32:57][                                  Main()] Calling SetApplication Function
+[08/18/2017 17:32:57][                                  Main()] Addon started successfully
+[08/18/2017 17:33:30][             SBO_Application_MenuEvent()] Starting function
+[08/18/2017 17:33:30][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/18/2017 17:33:30][             SBO_Application_MenuEvent()] Starting function
+[08/18/2017 17:33:30][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/18/2017 17:33:36][             SBO_Application_MenuEvent()] Starting function
+[08/18/2017 17:33:36][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/18/2017 17:33:37][             SBO_Application_MenuEvent()] Starting function
+[08/18/2017 17:33:37][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/18/2017 17:33:47][             SBO_Application_MenuEvent()] Starting function
+[08/18/2017 17:33:47][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/18/2017 17:33:48][             SBO_Application_MenuEvent()] Starting function
+[08/18/2017 17:33:48][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/18/2017 17:34:26][             SBO_Application_MenuEvent()] Starting function
+[08/18/2017 17:34:26][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/18/2017 17:34:53][                                  Main()] Starting Addon startup function
+[08/18/2017 17:34:53][                                  Main()] Initializing public SBO Application object
+[08/18/2017 17:34:54][                                  Main()] Retriving SBO application company handle
+[08/18/2017 17:34:55][                                  Main()] Retrived SBO application company handle
+[08/18/2017 17:34:55][                                  Main()] Calling ConnectDICompSSO()
+[08/18/2017 17:34:55][                      ConnectDICompSSO()] Starting function
+[08/18/2017 17:35:08][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/18/2017 17:35:08][                                  Main()] Creating Event handler class
+[08/18/2017 17:35:08][                      Class_Initialize()] Starting function
+[08/18/2017 17:35:08][                      Class_Initialize()] Retriving SBO Application handle
+[08/18/2017 17:35:08][                      Class_Initialize()] Completed with SUCCESS
+[08/18/2017 17:35:08][                                  Main()] Calling SetApplication Function
+[08/18/2017 17:35:08][                                  Main()] Addon started successfully
+[08/18/2017 17:35:38][             SBO_Application_MenuEvent()] Starting function
+[08/18/2017 17:35:38][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/18/2017 17:35:38][                                        ] Starting Function
+[08/18/2017 17:35:39][                                        ] Completed with SUCCESS
+[08/18/2017 17:35:39][             SBO_Application_MenuEvent()] Starting function
+[08/18/2017 17:35:39][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 09:01:16][                                  Main()] Starting Addon startup function
+[08/21/2017 09:01:16][                                  Main()] Initializing public SBO Application object
+[08/21/2017 09:01:16][                                  Main()] Retriving SBO application company handle
+[08/21/2017 09:01:19][                                  Main()] Retrived SBO application company handle
+[08/21/2017 09:01:19][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 09:01:19][                      ConnectDICompSSO()] Starting function
+[08/21/2017 09:03:39][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 09:03:39][                                  Main()] Creating Event handler class
+[08/21/2017 09:03:39][                      Class_Initialize()] Starting function
+[08/21/2017 09:03:39][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 09:03:39][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 09:03:39][                                  Main()] Calling SetApplication Function
+[08/21/2017 09:03:45][                                  Main()] Addon started successfully
+[08/21/2017 09:07:40][                                  Main()] Starting Addon startup function
+[08/21/2017 09:07:40][                                  Main()] Initializing public SBO Application object
+[08/21/2017 09:07:41][                                  Main()] Retriving SBO application company handle
+[08/21/2017 09:07:42][                                  Main()] Retrived SBO application company handle
+[08/21/2017 09:07:42][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 09:07:42][                      ConnectDICompSSO()] Starting function
+[08/21/2017 09:09:41][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 09:09:41][                                  Main()] Creating Event handler class
+[08/21/2017 09:09:41][                      Class_Initialize()] Starting function
+[08/21/2017 09:09:41][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 09:09:41][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 09:09:41][                                  Main()] Calling SetApplication Function
+[08/21/2017 09:09:41][                                  Main()] Addon started successfully
+[08/21/2017 09:10:10][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 09:10:10][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 09:10:10][                        FormModification] Starting Function
+[08/21/2017 09:10:11][                        FormModification] Completed with SUCCESS
+[08/21/2017 09:10:11][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 09:10:11][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 09:11:28][                              OpenWOForm] Completed with ERROR
+[08/21/2017 09:12:05][                              OpenWOForm] Completed with ERROR
+[08/21/2017 09:12:44][                                  Main()] Starting Addon startup function
+[08/21/2017 09:12:44][                                  Main()] Initializing public SBO Application object
+[08/21/2017 09:12:44][                                  Main()] Retriving SBO application company handle
+[08/21/2017 09:12:45][                                  Main()] Retrived SBO application company handle
+[08/21/2017 09:12:45][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 09:12:45][                      ConnectDICompSSO()] Starting function
+[08/21/2017 09:14:44][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 09:14:44][                                  Main()] Creating Event handler class
+[08/21/2017 09:14:44][                      Class_Initialize()] Starting function
+[08/21/2017 09:14:44][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 09:14:44][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 09:14:44][                                  Main()] Calling SetApplication Function
+[08/21/2017 09:14:45][                                  Main()] Addon started successfully
+[08/21/2017 09:15:09][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 09:15:09][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 09:15:09][                        FormModification] Starting Function
+[08/21/2017 09:15:09][                        FormModification] Completed with SUCCESS
+[08/21/2017 09:15:10][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 09:15:10][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 09:15:36][                     LoadWorkOrderMatrix] Starting Function
+[08/21/2017 09:15:37][                     LoadWorkOrderMatrix] Completed With ERROR
+[08/21/2017 09:17:53][                                  Main()] Starting Addon startup function
+[08/21/2017 09:17:53][                                  Main()] Initializing public SBO Application object
+[08/21/2017 09:17:53][                                  Main()] Retriving SBO application company handle
+[08/21/2017 09:17:54][                                  Main()] Retrived SBO application company handle
+[08/21/2017 09:17:54][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 09:17:54][                      ConnectDICompSSO()] Starting function
+[08/21/2017 09:19:52][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 09:19:52][                                  Main()] Creating Event handler class
+[08/21/2017 09:19:52][                      Class_Initialize()] Starting function
+[08/21/2017 09:19:52][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 09:19:52][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 09:19:52][                                  Main()] Calling SetApplication Function
+[08/21/2017 09:19:53][                                  Main()] Addon started successfully
+[08/21/2017 09:20:17][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 09:20:17][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 09:20:17][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 09:20:17][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 09:57:07][                                  Main()] Starting Addon startup function
+[08/21/2017 09:57:07][                                  Main()] Initializing public SBO Application object
+[08/21/2017 09:57:07][                                  Main()] Retriving SBO application company handle
+[08/21/2017 09:57:08][                                  Main()] Retrived SBO application company handle
+[08/21/2017 09:57:08][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 09:57:08][                      ConnectDICompSSO()] Starting function
+[08/21/2017 09:59:09][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 09:59:09][                                  Main()] Creating Event handler class
+[08/21/2017 09:59:09][                      Class_Initialize()] Starting function
+[08/21/2017 09:59:09][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 09:59:09][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 09:59:09][                                  Main()] Calling SetApplication Function
+[08/21/2017 09:59:09][                                  Main()] Addon started successfully
+[08/21/2017 10:01:21][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:01:21][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:01:21][                        FormModification] Starting Function
+[08/21/2017 10:01:21][                        FormModification] Completed with SUCCESS
+[08/21/2017 10:01:22][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:01:22][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:01:51][                     LoadWorkOrderMatrix] Starting Function
+[08/21/2017 10:01:52][                     LoadWorkOrderMatrix] Completed With ERROR
+[08/21/2017 10:01:57][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:01:57][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:02:03][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:02:03][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:02:09][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:02:09][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:02:10][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:02:10][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:02:48][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:02:48][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:02:48][                        FormModification] Starting Function
+[08/21/2017 10:02:49][                        FormModification] Completed with SUCCESS
+[08/21/2017 10:02:49][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:02:49][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:03:24][                     LoadWorkOrderMatrix] Starting Function
+[08/21/2017 10:03:26][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/21/2017 10:03:41][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:03:41][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:03:41][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:03:41][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:03:48][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:03:48][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:03:51][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:03:51][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:03:54][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:03:54][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:03:55][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:03:55][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:03:59][                     LoadWorkOrderMatrix] Starting Function
+[08/21/2017 10:04:00][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/21/2017 10:04:31][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:04:31][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:04:32][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:04:32][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:09:55][                                  Main()] Starting Addon startup function
+[08/21/2017 10:09:55][                                  Main()] Initializing public SBO Application object
+[08/21/2017 10:09:55][                                  Main()] Retriving SBO application company handle
+[08/21/2017 10:09:57][                                  Main()] Retrived SBO application company handle
+[08/21/2017 10:09:57][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 10:09:57][                      ConnectDICompSSO()] Starting function
+[08/21/2017 10:11:57][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 10:11:57][                                  Main()] Creating Event handler class
+[08/21/2017 10:11:57][                      Class_Initialize()] Starting function
+[08/21/2017 10:11:57][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 10:11:57][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 10:11:57][                                  Main()] Calling SetApplication Function
+[08/21/2017 10:11:57][                                  Main()] Addon started successfully
+[08/21/2017 10:39:08][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:39:08][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:39:08][                        FormModification] Starting Function
+[08/21/2017 10:39:08][                        FormModification] Completed with SUCCESS
+[08/21/2017 10:39:09][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:39:09][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:39:41][                     LoadWorkOrderMatrix] Starting Function
+[08/21/2017 10:39:43][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/21/2017 10:39:55][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:39:55][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:39:55][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 10:39:55][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 10:39:58][                     LoadWorkOrderMatrix] Starting Function
+[08/21/2017 10:40:01][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/21/2017 10:40:33][                     LoadWorkOrderMatrix] Starting Function
+[08/21/2017 10:40:34][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/21/2017 10:41:12][                     LoadWorkOrderMatrix] Starting Function
+[08/21/2017 10:41:14][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/21/2017 10:43:06][                     LoadWorkOrderMatrix] Starting Function
+[08/21/2017 10:43:07][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/21/2017 12:44:53][                                  Main()] Starting Addon startup function
+[08/21/2017 12:44:54][                                  Main()] Initializing public SBO Application object
+[08/21/2017 12:44:54][                                  Main()] Retriving SBO application company handle
+[08/21/2017 12:44:58][                                  Main()] Retrived SBO application company handle
+[08/21/2017 12:44:58][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 12:44:58][                      ConnectDICompSSO()] Starting function
+[08/21/2017 12:49:01][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 12:49:01][                                  Main()] Creating Event handler class
+[08/21/2017 12:49:01][                      Class_Initialize()] Starting function
+[08/21/2017 12:49:01][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 12:49:02][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 12:49:02][                                  Main()] Calling SetApplication Function
+[08/21/2017 12:49:17][                                  Main()] Addon started successfully
+[08/21/2017 12:57:10][                                  Main()] Starting Addon startup function
+[08/21/2017 12:57:10][                                  Main()] Initializing public SBO Application object
+[08/21/2017 12:57:10][                                  Main()] Retriving SBO application company handle
+[08/21/2017 12:57:11][                                  Main()] Retrived SBO application company handle
+[08/21/2017 12:57:11][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 12:57:11][                      ConnectDICompSSO()] Starting function
+[08/21/2017 12:59:11][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 12:59:11][                                  Main()] Creating Event handler class
+[08/21/2017 12:59:11][                      Class_Initialize()] Starting function
+[08/21/2017 12:59:11][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 12:59:11][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 12:59:11][                                  Main()] Calling SetApplication Function
+[08/21/2017 12:59:11][                                  Main()] Addon started successfully
+[08/21/2017 12:59:53][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 12:59:53][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 12:59:54][                        FormModification] Starting Function
+[08/21/2017 12:59:55][                        FormModification] Completed with SUCCESS
+[08/21/2017 12:59:56][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 12:59:56][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:01:02][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:01:02][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:01:04][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:01:04][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:01:08][                     LoadWorkOrderMatrix] Starting Function
+[08/21/2017 13:01:09][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/21/2017 13:08:24][                     LoadWorkOrderMatrix] Starting Function
+[08/21/2017 13:08:25][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/21/2017 13:10:10][                                  Main()] Starting Addon startup function
+[08/21/2017 13:10:10][                                  Main()] Initializing public SBO Application object
+[08/21/2017 13:10:10][                                  Main()] Retriving SBO application company handle
+[08/21/2017 13:10:11][                                  Main()] Retrived SBO application company handle
+[08/21/2017 13:10:11][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 13:10:11][                      ConnectDICompSSO()] Starting function
+[08/21/2017 13:12:11][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 13:12:11][                                  Main()] Creating Event handler class
+[08/21/2017 13:12:11][                      Class_Initialize()] Starting function
+[08/21/2017 13:12:11][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 13:12:11][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 13:12:11][                                  Main()] Calling SetApplication Function
+[08/21/2017 13:12:11][                                  Main()] Addon started successfully
+[08/21/2017 13:12:15][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:12:15][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:12:16][                        FormModification] Starting Function
+[08/21/2017 13:12:16][                        FormModification] Completed with SUCCESS
+[08/21/2017 13:12:17][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:12:17][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:12:17][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:12:17][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:12:18][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:12:18][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:12:24][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:12:24][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:12:25][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:12:25][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:12:27][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:12:27][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:12:27][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:12:28][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:12:30][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:12:30][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:12:31][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:12:32][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:12:37][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:12:37][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:12:38][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:12:38][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:12:54][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:12:54][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:12:55][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:13:10][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:13:13][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:13:13][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:13:14][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:13:20][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:20:42][                                  Main()] Starting Addon startup function
+[08/21/2017 13:20:42][                                  Main()] Initializing public SBO Application object
+[08/21/2017 13:20:42][                                  Main()] Retriving SBO application company handle
+[08/21/2017 13:20:43][                                  Main()] Retrived SBO application company handle
+[08/21/2017 13:20:43][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 13:20:43][                      ConnectDICompSSO()] Starting function
+[08/21/2017 13:22:43][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 13:22:43][                                  Main()] Creating Event handler class
+[08/21/2017 13:22:43][                      Class_Initialize()] Starting function
+[08/21/2017 13:22:43][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 13:22:43][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 13:22:43][                                  Main()] Calling SetApplication Function
+[08/21/2017 13:22:44][                                  Main()] Addon started successfully
+[08/21/2017 13:22:47][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:22:47][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:22:48][                        FormModification] Starting Function
+[08/21/2017 13:22:48][                        FormModification] Completed with SUCCESS
+[08/21/2017 13:22:49][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:22:49][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:22:50][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:22:50][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:22:55][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:22:55][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:25:29][                     LoadWorkOrderMatrix] Starting Function
+[08/21/2017 13:27:28][                                  Main()] Starting Addon startup function
+[08/21/2017 13:27:28][                                  Main()] Initializing public SBO Application object
+[08/21/2017 13:27:28][                                  Main()] Retriving SBO application company handle
+[08/21/2017 13:27:29][                                  Main()] Retrived SBO application company handle
+[08/21/2017 13:27:29][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 13:27:29][                      ConnectDICompSSO()] Starting function
+[08/21/2017 13:29:28][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 13:29:28][                                  Main()] Creating Event handler class
+[08/21/2017 13:29:28][                      Class_Initialize()] Starting function
+[08/21/2017 13:29:28][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 13:29:28][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 13:29:28][                                  Main()] Calling SetApplication Function
+[08/21/2017 13:29:28][                                  Main()] Addon started successfully
+[08/21/2017 13:29:31][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:29:31][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:29:32][                        FormModification] Starting Function
+[08/21/2017 13:29:32][                        FormModification] Completed with SUCCESS
+[08/21/2017 13:29:33][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:29:33][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:29:35][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:29:35][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:29:36][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:29:36][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:29:39][                     LoadWorkOrderMatrix] Starting Function
+[08/21/2017 13:29:40][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/21/2017 13:30:39][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:30:39][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:30:39][                        FormModification] Starting Function
+[08/21/2017 13:30:40][                        FormModification] Completed with SUCCESS
+[08/21/2017 13:30:41][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:30:41][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:30:41][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:30:41][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:30:42][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:30:42][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:30:56][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:30:56][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:30:56][                        FormModification] Starting Function
+[08/21/2017 13:30:57][                        FormModification] Completed with SUCCESS
+[08/21/2017 13:30:58][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:30:58][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:30:58][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:30:58][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:30:59][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:30:59][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:33:56][                     LoadWorkOrderMatrix] Starting Function
+[08/21/2017 13:33:58][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/21/2017 13:34:31][                     LoadWorkOrderMatrix] Starting Function
+[08/21/2017 13:34:32][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/21/2017 13:35:04][                                  Main()] Starting Addon startup function
+[08/21/2017 13:35:04][                                  Main()] Initializing public SBO Application object
+[08/21/2017 13:35:04][                                  Main()] Retriving SBO application company handle
+[08/21/2017 13:35:06][                                  Main()] Retrived SBO application company handle
+[08/21/2017 13:35:06][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 13:35:06][                      ConnectDICompSSO()] Starting function
+[08/21/2017 13:37:05][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 13:37:05][                                  Main()] Creating Event handler class
+[08/21/2017 13:37:05][                      Class_Initialize()] Starting function
+[08/21/2017 13:37:05][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 13:37:05][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 13:37:05][                                  Main()] Calling SetApplication Function
+[08/21/2017 13:37:05][                                  Main()] Addon started successfully
+[08/21/2017 13:37:21][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:37:21][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:37:21][                        FormModification] Starting Function
+[08/21/2017 13:37:22][                        FormModification] Completed with SUCCESS
+[08/21/2017 13:37:22][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:37:23][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:37:24][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:37:24][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:37:24][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:37:25][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:37:26][                  OpenWoDetlFormFindMode] Starting Function
+[08/21/2017 13:37:28][                               LoadDatas] Starting Function
+[08/21/2017 13:37:28][                               LoadDatas] Completed with SUCCESS
+[08/21/2017 13:37:28][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/21/2017 13:38:01][                  OpenWoDetlFormFindMode] Starting Function
+[08/21/2017 13:38:20][                               LoadDatas] Starting Function
+[08/21/2017 13:38:47][                                  Main()] Starting Addon startup function
+[08/21/2017 13:38:47][                                  Main()] Initializing public SBO Application object
+[08/21/2017 13:38:47][                                  Main()] Retriving SBO application company handle
+[08/21/2017 13:38:48][                                  Main()] Retrived SBO application company handle
+[08/21/2017 13:38:48][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 13:38:48][                      ConnectDICompSSO()] Starting function
+[08/21/2017 13:40:47][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 13:40:47][                                  Main()] Creating Event handler class
+[08/21/2017 13:40:47][                      Class_Initialize()] Starting function
+[08/21/2017 13:40:47][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 13:40:47][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 13:40:47][                                  Main()] Calling SetApplication Function
+[08/21/2017 13:40:48][                                  Main()] Addon started successfully
+[08/21/2017 13:44:05][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:44:05][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:44:06][                        FormModification] Starting Function
+[08/21/2017 13:44:06][                        FormModification] Completed with SUCCESS
+[08/21/2017 13:44:07][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:44:07][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:44:09][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:44:09][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:44:09][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:44:09][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:44:15][                  OpenWoDetlFormFindMode] Starting Function
+[08/21/2017 13:44:17][                               LoadDatas] Starting Function
+[08/21/2017 13:44:17][                               LoadDatas] Completed with SUCCESS
+[08/21/2017 13:44:17][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/21/2017 13:44:42][                  OpenWoDetlFormFindMode] Starting Function
+[08/21/2017 13:44:44][                               LoadDatas] Starting Function
+[08/21/2017 13:44:44][                               LoadDatas] Completed with SUCCESS
+[08/21/2017 13:44:44][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/21/2017 13:44:54][                  OpenWoDetlFormFindMode] Starting Function
+[08/21/2017 13:44:56][                               LoadDatas] Starting Function
+[08/21/2017 13:44:56][                               LoadDatas] Completed with SUCCESS
+[08/21/2017 13:44:56][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/21/2017 13:45:05][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:45:05][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:45:05][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:45:05][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:45:23][                  OpenWoDetlFormFindMode] Starting Function
+[08/21/2017 13:45:30][                               LoadDatas] Starting Function
+[08/21/2017 13:46:05][                               LoadDatas] Completed with SUCCESS
+[08/21/2017 13:51:13][                                  Main()] Starting Addon startup function
+[08/21/2017 13:51:13][                                  Main()] Initializing public SBO Application object
+[08/21/2017 13:51:13][                                  Main()] Retriving SBO application company handle
+[08/21/2017 13:51:15][                                  Main()] Retrived SBO application company handle
+[08/21/2017 13:51:15][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 13:51:15][                      ConnectDICompSSO()] Starting function
+[08/21/2017 13:53:15][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 13:53:15][                                  Main()] Creating Event handler class
+[08/21/2017 13:53:15][                      Class_Initialize()] Starting function
+[08/21/2017 13:53:15][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 13:53:15][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 13:53:15][                                  Main()] Calling SetApplication Function
+[08/21/2017 13:53:15][                                  Main()] Addon started successfully
+[08/21/2017 13:53:18][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:53:18][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:53:19][                        FormModification] Starting Function
+[08/21/2017 13:53:19][                        FormModification] Completed with SUCCESS
+[08/21/2017 13:53:20][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:53:20][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:53:20][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:53:20][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:53:21][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:53:22][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:53:23][                  OpenWoDetlFormFindMode] Starting Function
+[08/21/2017 13:53:25][                               LoadDatas] Starting Function
+[08/21/2017 13:53:25][                               LoadDatas] Completed with SUCCESS
+[08/21/2017 13:53:25][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/21/2017 13:53:52][                  OpenWoDetlFormFindMode] Starting Function
+[08/21/2017 13:53:54][                               LoadDatas] Starting Function
+[08/21/2017 13:53:55][                               LoadDatas] Completed with SUCCESS
+[08/21/2017 13:53:55][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/21/2017 13:54:28][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:54:28][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:54:28][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 13:54:29][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 13:54:31][                  OpenWoDetlFormFindMode] Starting Function
+[08/21/2017 13:54:32][                               LoadDatas] Starting Function
+[08/21/2017 13:54:33][                               LoadDatas] Completed with SUCCESS
+[08/21/2017 13:54:33][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/21/2017 13:57:50][                                  Main()] Starting Addon startup function
+[08/21/2017 13:57:50][                                  Main()] Initializing public SBO Application object
+[08/21/2017 13:57:50][                                  Main()] Retriving SBO application company handle
+[08/21/2017 13:57:51][                                  Main()] Retrived SBO application company handle
+[08/21/2017 13:57:51][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 13:57:51][                      ConnectDICompSSO()] Starting function
+[08/21/2017 14:40:55][                                  Main()] Starting Addon startup function
+[08/21/2017 14:41:07][                                  Main()] Initializing public SBO Application object
+[08/21/2017 14:41:07][                                  Main()] Retriving SBO application company handle
+[08/21/2017 14:41:08][                                  Main()] Retrived SBO application company handle
+[08/21/2017 14:41:08][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 14:41:08][                      ConnectDICompSSO()] Starting function
+[08/21/2017 14:43:08][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 14:43:08][                                  Main()] Creating Event handler class
+[08/21/2017 14:43:08][                      Class_Initialize()] Starting function
+[08/21/2017 14:43:08][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 14:43:08][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 14:43:08][                                  Main()] Calling SetApplication Function
+[08/21/2017 14:43:08][                                  Main()] Addon started successfully
+[08/21/2017 14:43:12][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 14:43:12][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 14:43:13][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 14:43:13][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 14:43:25][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 14:43:25][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 14:43:25][                        FormModification] Starting Function
+[08/21/2017 14:43:25][                        FormModification] Completed with SUCCESS
+[08/21/2017 14:43:26][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 14:43:27][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 14:43:28][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 14:43:28][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 14:43:29][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 14:43:29][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 14:43:30][                  OpenWoDetlFormFindMode] Starting Function
+[08/21/2017 14:44:13][                                  Main()] Starting Addon startup function
+[08/21/2017 15:01:09][                                  Main()] Initializing public SBO Application object
+[08/21/2017 15:01:09][                                  Main()] Retriving SBO application company handle
+[08/21/2017 15:01:10][                                  Main()] Retrived SBO application company handle
+[08/21/2017 15:01:10][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 15:01:10][                      ConnectDICompSSO()] Starting function
+[08/21/2017 15:03:09][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 15:03:09][                                  Main()] Creating Event handler class
+[08/21/2017 15:03:09][                      Class_Initialize()] Starting function
+[08/21/2017 15:03:09][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 15:03:09][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 15:03:09][                                  Main()] Calling SetApplication Function
+[08/21/2017 15:03:09][                                  Main()] Addon started successfully
+[08/21/2017 15:37:57][                                  Main()] Starting Addon startup function
+[08/21/2017 15:38:15][                                  Main()] Initializing public SBO Application object
+[08/21/2017 15:38:15][                                  Main()] Retriving SBO application company handle
+[08/21/2017 15:38:16][                                  Main()] Retrived SBO application company handle
+[08/21/2017 15:38:16][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 15:38:16][                      ConnectDICompSSO()] Starting function
+[08/21/2017 15:40:17][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 15:40:17][                                  Main()] Creating Event handler class
+[08/21/2017 15:40:17][                      Class_Initialize()] Starting function
+[08/21/2017 15:40:17][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 15:40:17][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 15:40:17][                                  Main()] Calling SetApplication Function
+[08/21/2017 15:40:18][                                  Main()] Addon started successfully
+[08/21/2017 15:48:21][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 15:48:21][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 15:48:22][                        FormModification] Starting Function
+[08/21/2017 15:48:22][                        FormModification] Completed with SUCCESS
+[08/21/2017 15:48:23][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 15:48:23][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 15:48:24][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 15:48:24][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 15:48:25][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 15:48:25][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 15:48:27][                  OpenWoDetlFormFindMode] Starting Function
+[08/21/2017 15:48:42][                               LoadDatas] Starting Function
+[08/21/2017 15:48:43][                               LoadDatas] Completed with SUCCESS
+[08/21/2017 15:48:43][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/21/2017 15:49:04][                  OpenWoDetlFormFindMode] Starting Function
+[08/21/2017 15:49:06][                               LoadDatas] Starting Function
+[08/21/2017 15:49:07][                               LoadDatas] Completed with SUCCESS
+[08/21/2017 15:49:07][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/21/2017 15:49:21][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 15:49:21][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 15:49:22][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 15:49:22][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 15:49:23][                  OpenWoDetlFormFindMode] Starting Function
+[08/21/2017 15:49:25][                               LoadDatas] Starting Function
+[08/21/2017 15:49:26][                               LoadDatas] Completed with SUCCESS
+[08/21/2017 15:49:26][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/21/2017 16:29:12][                                  Main()] Starting Addon startup function
+[08/21/2017 16:29:18][                                  Main()] Initializing public SBO Application object
+[08/21/2017 16:29:18][                                  Main()] Retriving SBO application company handle
+[08/21/2017 16:29:19][                                  Main()] Retrived SBO application company handle
+[08/21/2017 16:29:19][                                  Main()] Calling ConnectDICompSSO()
+[08/21/2017 16:29:19][                      ConnectDICompSSO()] Starting function
+[08/21/2017 16:31:19][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/21/2017 16:31:19][                                  Main()] Creating Event handler class
+[08/21/2017 16:31:19][                      Class_Initialize()] Starting function
+[08/21/2017 16:31:19][                      Class_Initialize()] Retriving SBO Application handle
+[08/21/2017 16:31:19][                      Class_Initialize()] Completed with SUCCESS
+[08/21/2017 16:31:19][                                  Main()] Calling SetApplication Function
+[08/21/2017 16:31:19][                                  Main()] Addon started successfully
+[08/21/2017 16:51:36][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 16:51:36][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 16:51:37][                        FormModification] Starting Function
+[08/21/2017 16:51:37][                        FormModification] Completed with SUCCESS
+[08/21/2017 16:51:38][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 16:51:39][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 16:51:39][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 16:51:39][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 16:51:41][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 16:51:41][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 16:51:43][                  OpenWoDetlFormFindMode] Starting Function
+[08/21/2017 16:51:45][                               LoadDatas] Starting Function
+[08/21/2017 16:51:45][                               LoadDatas] Completed with SUCCESS
+[08/21/2017 16:51:46][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/21/2017 16:52:13][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 16:52:13][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 16:52:14][             SBO_Application_MenuEvent()] Starting function
+[08/21/2017 16:52:14][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/21/2017 16:52:19][                  OpenWoDetlFormFindMode] Starting Function
+[08/21/2017 16:52:21][                               LoadDatas] Starting Function
+[08/21/2017 16:52:22][                               LoadDatas] Completed with SUCCESS
+[08/21/2017 16:52:23][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/21/2017 16:52:23][                  OpenWoDetlFormFindMode] Starting Function
+[08/21/2017 16:52:24][                  OpenWoDetlFormFindMode] Completed with ERROR
+[08/22/2017 10:49:23][                                  Main()] Starting Addon startup function
+[08/22/2017 10:49:23][                                  Main()] Initializing public SBO Application object
+[08/22/2017 10:49:23][                                  Main()] Retriving SBO application company handle
+[08/22/2017 10:49:26][                                  Main()] Retrived SBO application company handle
+[08/22/2017 10:49:26][                                  Main()] Calling ConnectDICompSSO()
+[08/22/2017 10:49:26][                      ConnectDICompSSO()] Starting function
+[08/22/2017 10:51:49][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/22/2017 10:51:49][                                  Main()] Creating Event handler class
+[08/22/2017 10:51:49][                      Class_Initialize()] Starting function
+[08/22/2017 10:51:49][                      Class_Initialize()] Retriving SBO Application handle
+[08/22/2017 10:51:50][                      Class_Initialize()] Completed with SUCCESS
+[08/22/2017 10:51:50][                                  Main()] Calling SetApplication Function
+[08/22/2017 10:51:54][                                  Main()] Addon started successfully
+[08/22/2017 11:01:29][                                  Main()] Starting Addon startup function
+[08/22/2017 11:01:29][                                  Main()] Initializing public SBO Application object
+[08/22/2017 11:01:29][                                  Main()] Retriving SBO application company handle
+[08/22/2017 11:01:31][                                  Main()] Retrived SBO application company handle
+[08/22/2017 11:01:31][                                  Main()] Calling ConnectDICompSSO()
+[08/22/2017 11:01:31][                      ConnectDICompSSO()] Starting function
+[08/22/2017 11:03:31][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/22/2017 11:03:31][                                  Main()] Creating Event handler class
+[08/22/2017 11:03:31][                      Class_Initialize()] Starting function
+[08/22/2017 11:03:31][                      Class_Initialize()] Retriving SBO Application handle
+[08/22/2017 11:03:31][                      Class_Initialize()] Completed with SUCCESS
+[08/22/2017 11:03:31][                                  Main()] Calling SetApplication Function
+[08/22/2017 11:03:31][                                  Main()] Addon started successfully
+[08/22/2017 11:03:35][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:03:36][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:03:36][                        FormModification] Starting Function
+[08/22/2017 11:03:37][                        FormModification] Completed with SUCCESS
+[08/22/2017 11:03:37][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:03:38][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:03:53][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:03:53][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:03:54][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:03:54][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:04:28][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:04:28][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:04:29][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:04:29][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:05:12][                     LoadWorkOrderMatrix] Starting Function
+[08/22/2017 11:05:13][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/22/2017 11:05:26][                              UpdateRows] Starting Function
+[08/22/2017 11:05:27][                              UpdateRows] Completed with SUCCESS
+[08/22/2017 11:05:46][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:05:46][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:05:47][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:05:47][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:06:18][                     LoadWorkOrderMatrix] Starting Function
+[08/22/2017 11:06:19][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/22/2017 11:06:46][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:06:46][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:06:47][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:06:47][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:07:10][                     LoadWorkOrderMatrix] Starting Function
+[08/22/2017 11:07:11][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/22/2017 11:07:45][                     LoadWorkOrderMatrix] Starting Function
+[08/22/2017 11:07:46][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/22/2017 11:07:50][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:07:50][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:07:50][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:07:50][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:09:54][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:09:54][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:09:55][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:09:55][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:10:11][                     LoadWorkOrderMatrix] Starting Function
+[08/22/2017 11:10:12][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/22/2017 11:11:04][                                  Main()] Starting Addon startup function
+[08/22/2017 11:11:04][                                  Main()] Initializing public SBO Application object
+[08/22/2017 11:11:04][                                  Main()] Retriving SBO application company handle
+[08/22/2017 11:11:05][                                  Main()] Retrived SBO application company handle
+[08/22/2017 11:11:05][                                  Main()] Calling ConnectDICompSSO()
+[08/22/2017 11:11:05][                      ConnectDICompSSO()] Starting function
+[08/22/2017 11:13:05][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/22/2017 11:13:05][                                  Main()] Creating Event handler class
+[08/22/2017 11:13:05][                      Class_Initialize()] Starting function
+[08/22/2017 11:13:05][                      Class_Initialize()] Retriving SBO Application handle
+[08/22/2017 11:13:05][                      Class_Initialize()] Completed with SUCCESS
+[08/22/2017 11:13:05][                                  Main()] Calling SetApplication Function
+[08/22/2017 11:13:06][                                  Main()] Addon started successfully
+[08/22/2017 11:16:19][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:16:19][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:16:20][                        FormModification] Starting Function
+[08/22/2017 11:16:20][                        FormModification] Completed with SUCCESS
+[08/22/2017 11:16:20][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:16:21][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:16:21][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:16:21][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:16:21][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:16:22][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:16:32][                  OpenWoDetlFormFindMode] Starting Function
+[08/22/2017 11:16:34][                               LoadDatas] Starting Function
+[08/22/2017 11:16:35][                               LoadDatas] Completed with SUCCESS
+[08/22/2017 11:16:35][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/22/2017 11:16:53][                              UpdateRows] Starting Function
+[08/22/2017 11:16:55][                              UpdateRows] Completed with SUCCESS
+[08/22/2017 11:17:18][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:17:18][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:17:19][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:17:19][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:17:21][                  OpenWoDetlFormFindMode] Starting Function
+[08/22/2017 11:17:23][                               LoadDatas] Starting Function
+[08/22/2017 11:17:23][                               LoadDatas] Completed with SUCCESS
+[08/22/2017 11:17:23][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/22/2017 11:17:43][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:17:43][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:17:44][                        FormModification] Starting Function
+[08/22/2017 11:17:44][                        FormModification] Completed with SUCCESS
+[08/22/2017 11:17:45][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:17:45][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:17:46][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:17:46][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:17:46][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:17:47][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:18:16][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:18:16][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:18:16][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:18:16][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:18:24][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:18:24][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:18:25][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:18:25][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:18:26][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:18:26][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:18:27][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:18:27][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:18:32][                  OpenWoDetlFormFindMode] Starting Function
+[08/22/2017 11:18:34][                               LoadDatas] Starting Function
+[08/22/2017 11:18:34][                               LoadDatas] Completed with SUCCESS
+[08/22/2017 11:18:35][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/22/2017 11:18:48][                              UpdateRows] Starting Function
+[08/22/2017 11:19:36][                              UpdateRows] Completed with SUCCESS
+[08/22/2017 11:22:24][                                  Main()] Starting Addon startup function
+[08/22/2017 11:22:24][                                  Main()] Initializing public SBO Application object
+[08/22/2017 11:22:24][                                  Main()] Retriving SBO application company handle
+[08/22/2017 11:22:25][                                  Main()] Retrived SBO application company handle
+[08/22/2017 11:22:25][                                  Main()] Calling ConnectDICompSSO()
+[08/22/2017 11:22:25][                      ConnectDICompSSO()] Starting function
+[08/22/2017 11:23:18][                                  Main()] Starting Addon startup function
+[08/22/2017 11:23:19][                                  Main()] Initializing public SBO Application object
+[08/22/2017 11:23:19][                                  Main()] Retriving SBO application company handle
+[08/22/2017 11:23:20][                                  Main()] Retrived SBO application company handle
+[08/22/2017 11:23:20][                                  Main()] Calling ConnectDICompSSO()
+[08/22/2017 11:23:20][                      ConnectDICompSSO()] Starting function
+[08/22/2017 11:25:27][                                  Main()] Starting Addon startup function
+[08/22/2017 11:25:27][                                  Main()] Initializing public SBO Application object
+[08/22/2017 11:25:27][                                  Main()] Retriving SBO application company handle
+[08/22/2017 11:25:28][                                  Main()] Retrived SBO application company handle
+[08/22/2017 11:25:28][                                  Main()] Calling ConnectDICompSSO()
+[08/22/2017 11:25:28][                      ConnectDICompSSO()] Starting function
+[08/22/2017 11:27:28][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/22/2017 11:27:28][                                  Main()] Creating Event handler class
+[08/22/2017 11:27:28][                      Class_Initialize()] Starting function
+[08/22/2017 11:27:28][                      Class_Initialize()] Retriving SBO Application handle
+[08/22/2017 11:27:28][                      Class_Initialize()] Completed with SUCCESS
+[08/22/2017 11:27:28][                                  Main()] Calling SetApplication Function
+[08/22/2017 11:27:29][                                  Main()] Addon started successfully
+[08/22/2017 11:27:30][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:27:30][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:27:31][                        FormModification] Starting Function
+[08/22/2017 11:27:31][                        FormModification] Completed with SUCCESS
+[08/22/2017 11:27:32][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:27:32][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:27:32][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:27:32][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:27:33][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:27:33][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:27:35][                  OpenWoDetlFormFindMode] Starting Function
+[08/22/2017 11:27:37][                               LoadDatas] Starting Function
+[08/22/2017 11:27:37][                               LoadDatas] Completed with SUCCESS
+[08/22/2017 11:27:38][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/22/2017 11:28:08][                              UpdateRows] Starting Function
+[08/22/2017 11:28:34][                              UpdateRows] Completed with SUCCESS
+[08/22/2017 11:28:45][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:28:45][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:28:46][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:28:46][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:28:47][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:28:47][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:28:48][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:28:48][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:28:53][                  OpenWoDetlFormFindMode] Starting Function
+[08/22/2017 11:28:55][                               LoadDatas] Starting Function
+[08/22/2017 11:28:56][                               LoadDatas] Completed with SUCCESS
+[08/22/2017 11:28:56][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/22/2017 11:29:10][                              UpdateRows] Starting Function
+[08/22/2017 11:29:51][                              UpdateRows] Completed with SUCCESS
+[08/22/2017 11:29:59][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:29:59][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:29:59][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:29:59][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:30:43][                                  Main()] Starting Addon startup function
+[08/22/2017 11:30:43][                                  Main()] Initializing public SBO Application object
+[08/22/2017 11:30:43][                                  Main()] Retriving SBO application company handle
+[08/22/2017 11:30:44][                                  Main()] Retrived SBO application company handle
+[08/22/2017 11:30:44][                                  Main()] Calling ConnectDICompSSO()
+[08/22/2017 11:30:44][                      ConnectDICompSSO()] Starting function
+[08/22/2017 11:32:44][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/22/2017 11:32:44][                                  Main()] Creating Event handler class
+[08/22/2017 11:32:44][                      Class_Initialize()] Starting function
+[08/22/2017 11:32:44][                      Class_Initialize()] Retriving SBO Application handle
+[08/22/2017 11:32:44][                      Class_Initialize()] Completed with SUCCESS
+[08/22/2017 11:32:44][                                  Main()] Calling SetApplication Function
+[08/22/2017 11:32:44][                                  Main()] Addon started successfully
+[08/22/2017 11:35:43][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:35:43][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:35:43][                        FormModification] Starting Function
+[08/22/2017 11:35:43][                        FormModification] Completed with SUCCESS
+[08/22/2017 11:35:44][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:35:45][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:35:45][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:35:45][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:35:46][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:35:46][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:35:48][                  OpenWoDetlFormFindMode] Starting Function
+[08/22/2017 11:35:50][                               LoadDatas] Starting Function
+[08/22/2017 11:35:50][                               LoadDatas] Completed with SUCCESS
+[08/22/2017 11:35:50][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/22/2017 11:35:56][                              UpdateRows] Starting Function
+[08/22/2017 11:35:58][                              UpdateRows] Completed with SUCCESS
+[08/22/2017 11:36:02][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:36:02][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:36:03][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:36:03][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:36:05][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:36:05][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/22/2017 11:36:05][             SBO_Application_MenuEvent()] Starting function
+[08/22/2017 11:36:06][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/30/2017 13:19:11][                                  Main()] Starting Addon startup function
+[08/30/2017 13:19:11][                                  Main()] Initializing public SBO Application object
+[08/30/2017 13:19:11][                                  Main()] Retriving SBO application company handle
+[08/30/2017 13:19:12][                                  Main()] Retrived SBO application company handle
+[08/30/2017 13:19:12][                                  Main()] Calling ConnectDICompSSO()
+[08/30/2017 13:19:12][                      ConnectDICompSSO()] Starting function
+[08/30/2017 13:19:15][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/30/2017 13:19:15][                                  Main()] Creating Event handler class
+[08/30/2017 13:19:15][                      Class_Initialize()] Starting function
+[08/30/2017 13:19:15][                      Class_Initialize()] Retriving SBO Application handle
+[08/30/2017 13:19:15][                      Class_Initialize()] Completed with SUCCESS
+[08/30/2017 13:19:15][                                  Main()] Calling SetApplication Function
+[08/30/2017 13:19:16][                                  Main()] Addon started successfully
+[08/30/2017 13:22:49][                                  Main()] Starting Addon startup function
+[08/30/2017 13:22:49][                                  Main()] Initializing public SBO Application object
+[08/30/2017 13:22:49][                                  Main()] Retriving SBO application company handle
+[08/30/2017 13:22:49][                                  Main()] Retrived SBO application company handle
+[08/30/2017 13:22:49][                                  Main()] Calling ConnectDICompSSO()
+[08/30/2017 13:22:49][                      ConnectDICompSSO()] Starting function
+[08/30/2017 13:22:53][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/30/2017 13:22:53][                                  Main()] Creating Event handler class
+[08/30/2017 13:22:53][                      Class_Initialize()] Starting function
+[08/30/2017 13:22:53][                      Class_Initialize()] Retriving SBO Application handle
+[08/30/2017 13:22:53][                      Class_Initialize()] Completed with SUCCESS
+[08/30/2017 13:22:53][                                  Main()] Calling SetApplication Function
+[08/30/2017 13:22:53][                                  Main()] Addon started successfully
+[08/30/2017 13:24:36][                                  Main()] Starting Addon startup function
+[08/30/2017 13:24:36][                                  Main()] Initializing public SBO Application object
+[08/30/2017 13:24:36][                                  Main()] Retriving SBO application company handle
+[08/30/2017 13:24:36][                                  Main()] Retrived SBO application company handle
+[08/30/2017 13:24:36][                                  Main()] Calling ConnectDICompSSO()
+[08/30/2017 13:24:36][                      ConnectDICompSSO()] Starting function
+[08/30/2017 13:24:40][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/30/2017 13:24:40][                                  Main()] Creating Event handler class
+[08/30/2017 13:24:40][                      Class_Initialize()] Starting function
+[08/30/2017 13:24:40][                      Class_Initialize()] Retriving SBO Application handle
+[08/30/2017 13:24:40][                      Class_Initialize()] Completed with SUCCESS
+[08/30/2017 13:24:40][                                  Main()] Calling SetApplication Function
+[08/30/2017 13:24:40][                                  Main()] Addon started successfully
+[08/30/2017 13:24:45][             SBO_Application_MenuEvent()] Starting function
+[08/30/2017 13:24:45][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/30/2017 13:24:46][                        FormModification] Starting Function
+[08/30/2017 13:24:46][                        FormModification] Completed with SUCCESS
+[08/30/2017 13:24:49][             SBO_Application_MenuEvent()] Starting function
+[08/30/2017 13:24:49][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/30/2017 13:24:49][             SBO_Application_MenuEvent()] Starting function
+[08/30/2017 13:24:49][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/30/2017 13:24:50][             SBO_Application_MenuEvent()] Starting function
+[08/30/2017 13:24:50][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/30/2017 13:24:53][                  OpenWoDetlFormFindMode] Starting Function
+[08/30/2017 13:24:54][                               LoadDatas] Starting Function
+[08/30/2017 13:24:54][                               LoadDatas] Completed with SUCCESS
+[08/30/2017 13:24:54][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/30/2017 13:25:10][                  OpenWoDetlFormFindMode] Starting Function
+[08/30/2017 13:25:11][                               LoadDatas] Starting Function
+[08/30/2017 13:25:12][                               LoadDatas] Completed with SUCCESS
+[08/30/2017 13:25:12][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/30/2017 13:25:22][                  OpenWoDetlFormFindMode] Starting Function
+[08/30/2017 13:25:23][                               LoadDatas] Starting Function
+[08/30/2017 13:25:24][                               LoadDatas] Completed with SUCCESS
+[08/30/2017 13:25:24][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/30/2017 13:26:17][                                  Main()] Starting Addon startup function
+[08/30/2017 13:26:17][                                  Main()] Initializing public SBO Application object
+[08/30/2017 13:26:17][                                  Main()] Retriving SBO application company handle
+[08/30/2017 13:26:17][                                  Main()] Retrived SBO application company handle
+[08/30/2017 13:26:17][                                  Main()] Calling ConnectDICompSSO()
+[08/30/2017 13:26:17][                      ConnectDICompSSO()] Starting function
+[08/30/2017 13:26:20][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/30/2017 13:26:20][                                  Main()] Creating Event handler class
+[08/30/2017 13:26:20][                      Class_Initialize()] Starting function
+[08/30/2017 13:26:20][                      Class_Initialize()] Retriving SBO Application handle
+[08/30/2017 13:26:20][                      Class_Initialize()] Completed with SUCCESS
+[08/30/2017 13:26:20][                                  Main()] Calling SetApplication Function
+[08/30/2017 13:26:21][                                  Main()] Addon started successfully
+[08/30/2017 13:26:37][                  OpenWoDetlFormFindMode] Starting Function
+[08/30/2017 13:26:38][                               LoadDatas] Starting Function
+[08/30/2017 13:26:39][                               LoadDatas] Completed with SUCCESS
+[08/30/2017 13:26:39][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/30/2017 13:27:07][                  OpenWoDetlFormFindMode] Starting Function
+[08/30/2017 13:27:20][                               LoadDatas] Starting Function
+[08/30/2017 13:27:21][                               LoadDatas] Completed with SUCCESS
+[08/30/2017 13:27:40][                                  Main()] Starting Addon startup function
+[08/30/2017 13:27:40][                                  Main()] Initializing public SBO Application object
+[08/30/2017 13:27:40][                                  Main()] Retriving SBO application company handle
+[08/30/2017 13:27:40][                                  Main()] Retrived SBO application company handle
+[08/30/2017 13:27:40][                                  Main()] Calling ConnectDICompSSO()
+[08/30/2017 13:27:40][                      ConnectDICompSSO()] Starting function
+[08/30/2017 13:27:44][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/30/2017 13:27:44][                                  Main()] Creating Event handler class
+[08/30/2017 13:27:44][                      Class_Initialize()] Starting function
+[08/30/2017 13:27:44][                      Class_Initialize()] Retriving SBO Application handle
+[08/30/2017 13:27:44][                      Class_Initialize()] Completed with SUCCESS
+[08/30/2017 13:27:44][                                  Main()] Calling SetApplication Function
+[08/30/2017 13:27:44][                                  Main()] Addon started successfully
+[08/30/2017 13:28:08][                  OpenWoDetlFormFindMode] Starting Function
+[08/30/2017 13:28:14][                               LoadDatas] Starting Function
+[08/30/2017 13:28:14][                               LoadDatas] Completed with SUCCESS
+[08/30/2017 13:28:15][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/30/2017 13:28:26][             SBO_Application_MenuEvent()] Starting function
+[08/30/2017 13:28:26][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/30/2017 13:28:27][                        FormModification] Starting Function
+[08/30/2017 13:28:27][                        FormModification] Completed with SUCCESS
+[08/30/2017 13:28:29][             SBO_Application_MenuEvent()] Starting function
+[08/30/2017 13:28:29][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/30/2017 13:28:48][                     LoadWorkOrderMatrix] Starting Function
+[08/30/2017 13:28:49][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/30/2017 13:29:00][                       DeleteSubFormData] Executing Query DELETE * FROM [@AE_WODET1] WHERE DocEntry = (SELECT DocEntry FROM [@AE_WODET] WHERE U_DOCNUM = ''  AND U_SODOCNUM = '170507' AND U_SOSERIES = '133' AND U_SOREFNO = '') 
+[08/30/2017 13:29:00][                       DeleteSubFormData] Completed with ERROR
+[08/30/2017 13:59:15][                                  Main()] Starting Addon startup function
+[08/30/2017 13:59:15][                                  Main()] Initializing public SBO Application object
+[08/30/2017 13:59:15][                                  Main()] Retriving SBO application company handle
+[08/30/2017 13:59:16][                                  Main()] Retrived SBO application company handle
+[08/30/2017 13:59:16][                                  Main()] Calling ConnectDICompSSO()
+[08/30/2017 13:59:16][                      ConnectDICompSSO()] Starting function
+[08/30/2017 13:59:19][                      ConnectDICompSSO()] Completed with SUCCESS
+[08/30/2017 13:59:19][                                  Main()] Creating Event handler class
+[08/30/2017 13:59:19][                      Class_Initialize()] Starting function
+[08/30/2017 13:59:19][                      Class_Initialize()] Retriving SBO Application handle
+[08/30/2017 13:59:19][                      Class_Initialize()] Completed with SUCCESS
+[08/30/2017 13:59:19][                                  Main()] Calling SetApplication Function
+[08/30/2017 13:59:19][                                  Main()] Addon started successfully
+[08/30/2017 13:59:23][             SBO_Application_MenuEvent()] Starting function
+[08/30/2017 13:59:23][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/30/2017 13:59:23][                        FormModification] Starting Function
+[08/30/2017 13:59:24][                        FormModification] Completed with SUCCESS
+[08/30/2017 13:59:26][             SBO_Application_MenuEvent()] Starting function
+[08/30/2017 13:59:27][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/30/2017 13:59:47][                  OpenWoDetlFormFindMode] Starting Function
+[08/30/2017 13:59:49][                               LoadDatas] Starting Function
+[08/30/2017 13:59:49][                               LoadDatas] Completed with SUCCESS
+[08/30/2017 13:59:49][                  OpenWoDetlFormFindMode] Completed with SUCCESS
+[08/30/2017 13:59:54][                       DeleteSubFormData] Executing Query DELETE FROM [@AE_WODET1] WHERE DocEntry = (SELECT DocEntry FROM [@AE_WODET] WHERE U_DOCNUM = '2'  AND U_SODOCNUM = '170507' AND U_SOSERIES = '133' AND U_SOREFNO = 'SH1245') 
+[08/30/2017 13:59:54][                       DeleteSubFormData] Executing Query DELETE FROM [@AE_WODET] WHERE U_DOCNUM = '2'  AND U_SODOCNUM = '170507' AND U_SOSERIES = '133' AND U_SOREFNO = 'SH1245' 
+[08/30/2017 13:59:54][                       DeleteSubFormData] Completed with SUCCESS
+[08/30/2017 13:59:57][             SBO_Application_MenuEvent()] Starting function
+[08/30/2017 13:59:57][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/30/2017 13:59:57][                        FormModification] Starting Function
+[08/30/2017 13:59:57][                        FormModification] Completed with SUCCESS
+[08/30/2017 14:00:00][             SBO_Application_MenuEvent()] Starting function
+[08/30/2017 14:00:00][             SBO_Application_MenuEvent()] Completed with SUCCESS
+[08/30/2017 14:00:21][                     LoadWorkOrderMatrix] Starting Function
+[08/30/2017 14:00:22][                     LoadWorkOrderMatrix] Completed With SUCCESS
+[08/30/2017 14:00:26][                       DeleteSubFormData] Executing Query DELETE FROM [@AE_WODET1] WHERE DocEntry = (SELECT DocEntry FROM [@AE_WODET] WHERE U_DOCNUM = ''  AND U_SODOCNUM = '170507' AND U_SOSERIES = '133' AND U_SOREFNO = 'SH1245') 
+[08/30/2017 14:00:26][                       DeleteSubFormData] Executing Query DELETE FROM [@AE_WODET] WHERE U_DOCNUM = ''  AND U_SODOCNUM = '170507' AND U_SOSERIES = '133' AND U_SOREFNO = 'SH1245' 
+[08/30/2017 14:00:26][                       DeleteSubFormData] Completed with SUCCESS

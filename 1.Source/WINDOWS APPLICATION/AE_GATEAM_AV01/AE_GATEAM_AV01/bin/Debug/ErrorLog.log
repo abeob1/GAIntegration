@@ -1,0 +1,8 @@
+[08/21/2017 09:11:28][                              OpenWOForm] Item - Invalid item  [66000-3]
+[08/21/2017 09:12:05][                              OpenWOForm] Item - Invalid item  [66000-3]
+[08/21/2017 09:15:37][                     LoadWorkOrderMatrix] Column - Invalid column  [66000-16]
+[08/21/2017 10:01:52][                     LoadWorkOrderMatrix] Column - Invalid column  [66000-16]
+[08/21/2017 16:52:24][                  OpenWoDetlFormFindMode] Argument 'Prompt' cannot be converted to type 'String'.
+[08/30/2017 13:29:00][                       DeleteSubFormData] 1). [Microsoft][SQL Server Native Client 10.0][SQL Server]Incorrect syntax near '*'.
+2). [Microsoft][SQL Server Native Client 10.0][SQL Server]Statement(s) could not be prepared.
+
