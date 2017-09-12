@@ -1,0 +1,196 @@
+USE [GrandAdvance_Live]
+GO
+/****** Object:  StoredProcedure [dbo].[AB_INVENTORY_V4_J_UPDATED]    Script Date: 09/11/2017 11:01:35 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+--USE [GrandAdvance_Live]
+--GO
+--/****** Object:  StoredProcedure [dbo].[AB_INVENTORY_V4_J_UPDATED]    Script Date: 08/14/2017 11:13:43 ******/
+--SET ANSI_NULLS ON
+--GO
+--SET QUOTED_IDENTIFIER ON
+--GO
+ALTER PROCEDURE [dbo].[AB_INVENTORY_V4_J_UPDATED]
+	@FROMDATE as DateTime,
+	@TODATE as DateTime,
+	@ITMSGRPNAM as Varchar(30)
+AS
+BEGIN
+
+--DECLARE @FROMDATE DATE,@TODATE DATE
+--DECLARE @ITMSGRPNAM VARCHAR(50)
+--SET @FROMDATE = '2017-07-01'
+--SET @TODATE = '2017-07-31'
+--SET @ITMSGRPNAM = 100
+
+--DECLARE @ITEMCODE NVARCHAR(100)
+--set @ITEMCODE = 'ITEM0000000671'
+
+DECLARE @OPENINGDATE DATE
+SET @OPENINGDATE = '2016-04-01'
+
+SELECT ItemCode,(ISNULL(SUM(InQty) - SUM(OutQty),0)) [onHand] 
+INTO #ONHAND
+FROM OINM WHERE DocDate <= @TODATE 
+GROUP BY ItemCode
+
+select DISTINCT T0.Itemcode, T0.BatchNum INTO #BATCHLIST
+from IBT1 T0
+inner join OINM T1 ON T1.ItemCode = T0.ItemCode AND T1.CreatedBy = T0.BaseEntry AND T1.TransType = T0.BaseType AND T1.DocLineNum = T0.BaseLinNum 
+where T0.DocDate <= @TODATE  
+
+SELECT * into #OPENING_BATCH 
+FROM (
+select T0.Itemcode, T0.BatchNum,sum (CASE when Direction=0 then T0.Quantity else (-1 * T0.Quantity) end) as OpeningQty ,(T1.CalcPrice) [OpeningPrice]
+--(SELECT AvgPrice FROM OITM X WHERE X.ItemCode = T0.ItemCode) [OpeningPrice]
+from IBT1 T0
+inner join OINM T1 ON T1.ItemCode = T0.ItemCode AND T1.CreatedBy = T0.BaseEntry AND T1.TransType = T0.BaseType AND T1.DocLineNum = T0.BaseLinNum 
+where T0.DocDate < @OPENINGDATE 
+group by BatchNum,T0.ItemCode,CalcPrice 
+)TAB_OPENING
+WHERE OpeningQty > 0;
+
+select T0.Itemcode, T0.BatchNum,ABS(sum (CASE when Direction=0 then T0.Quantity else (-1 * T0.Quantity) end)) as InQty ,(T1.CalcPrice) [InPrice]
+into #INQTY_BATCH
+from IBT1 T0
+inner join OINM T1 ON T1.ItemCode = T0.ItemCode AND T1.CreatedBy = T0.BaseEntry AND T1.TransType = T0.BaseType AND T1.DocLineNum = T0.BaseLinNum 
+where T0.DocDate >= @FROMDATE AND  T0.DocDate <= @TODATE 
+AND T0.Direction = 0 AND T1.TransType = 59 
+group by BatchNum,T0.ItemCode,CalcPrice
+
+select T0.Itemcode, T0.BatchNum,ABS(sum (CASE when Direction=0 then T0.Quantity else (-1 * T0.Quantity) end)) as OutQty ,(T1.CalcPrice) [OutPrice]
+into #OUTQTY_BATCH
+from IBT1 T0
+inner join OINM T1 ON T1.ItemCode = T0.ItemCode AND T1.CreatedBy = T0.BaseEntry AND T1.TransType = T0.BaseType AND T1.DocLineNum = T0.BaseLinNum 
+where  T0.DocDate >= @FROMDATE AND  T0.DocDate <= @TODATE 
+AND T0.Direction = 1  AND T1.TransType = 60 
+group by BatchNum,T0.ItemCode,CalcPrice 
+
+SELECT * into #CLOSING_BATCH
+FROM (
+select T0.Itemcode, T0.BatchNum,sum (CASE when Direction=0 then T0.Quantity else (-1 * T0.Quantity) end) as ClosingQty ,(T1.CalcPrice) [Price]
+from IBT1 T0
+inner join OINM T1 ON T1.ItemCode = T0.ItemCode AND T1.CreatedBy = T0.BaseEntry AND T1.TransType = T0.BaseType AND T1.DocLineNum = T0.BaseLinNum 
+where T0.DocDate <= @TODATE
+group by BatchNum,T0.ItemCode,CalcPrice 
+)TAB_CLOSING
+WHERE ClosingQty > 0
+
+--SELECT T1.ItemCode,T1.BatchNum,T2.ClosingQty,CASE WHEN ISNULL(T2.Price,0) = 0 THEN T0.AvgPrice ELSE T2.Price END Price
+--INTO #CLOSING_BATCH
+--FROM OITM T0
+--INNER JOIN #BATCHLIST T1 ON T1.ItemCode = T0.ItemCode 
+--LEFT OUTER JOIN #CLOSING_BATCH_1 T2 ON T2.ItemCode = T1.ItemCode AND T2.BatchNum = T1.BatchNum
+
+--select '#OPENING_BATCH',* from #OPENING_BATCH where ItemCode = @ITEMCODE 
+--select '#INQTY_BATCH',* from #INQTY_BATCH where ItemCode = @ITEMCODE 
+--select '#OUTQTY_BATCH',* from #OUTQTY_BATCH where ItemCode = @ITEMCODE 
+----select '#CLOSING_BATCH_1',* from #CLOSING_BATCH_1 where ItemCode = @ITEMCODE 
+--select '#CLOSING_BATCH',* from #CLOSING_BATCH where ItemCode = @ITEMCODE 
+
+
+SELECT distinct X.ItemCode,T0.ItemName, CASE WHEN ISNULL(T3.BatchNum,'') <> '' THEN T3.BatchNum ELSE T5.BatchNum END [Batch No],
+(SELECT TOP 1 InDate FROM OIBT A WHERE A.ItemCode = T0.ItemCode AND A.BatchNum = T5.BatchNum ORDER BY InDate DESC) [Month/Year],
+T0.U_znr [Drawing No],ISNULL(T2.OpeningQty,0) [OpeningBalanceQty],ISNULL(T2.OpeningPrice,0) [Stock price per unit],
+ISNULL(T2.OpeningQty,0) * ISNULL(T2.OpeningPrice,0) [Cost Opening Balance],
+ISNULL(T3.InQty,0) [Stock In],ISNULL(T4.OutQty,0) [Stock Out],--ISNULL(T2.OpeningQty,0) + ISNULL(T3.InQty,0) - ISNULL(T4.OutQty,0) [Qty End Balance],
+--ISNULL(T3.InPrice,0) [Stock In Cost],
+--ISNULL(T4.OutPrice,0) [Stock out Cost],
+ISNULL(T3.InPrice,0) * ISNULL(T3.InQty,0) [Stock In Cost],
+ISNULL(T4.OutPrice,0) * ISNULL(T4.OutQty,0) [Stock out Cost],
+ISNULL(T5.ClosingQty,0) [Qty End Balance],ISNULL(T5.ClosingQty,0) * ISNULL(T5.Price,0) [Cost Closing Balance]
+INTO #AGEING
+FROM #BATCHLIST X
+INNER JOIN OITM T0 ON T0.ItemCode = X.ItemCode 
+INNER JOIN OITB T1 ON T1.ItmsGrpCod = T0.ItmsGrpCod 
+LEFT JOIN #OPENING_BATCH T2 ON T2.ItemCode = X.ItemCode AND T2.BatchNum = X.BatchNum 
+LEFT JOIN #INQTY_BATCH T3 ON T3.ItemCode = X.ItemCode AND T3.BatchNum = X.BatchNum  --AND T3.InPrice = T5.Price
+LEFT JOIN #OUTQTY_BATCH T4 ON T4.ItemCode = X.ItemCode AND T4.BatchNum = X.BatchNum 
+LEFT JOIN #CLOSING_BATCH T5 ON T5.ItemCode = X.ItemCode AND T5.BatchNum = X.BatchNum --AND T3.BatchNum = T5.BatchNum 
+WHERE T1.ItmsGrpNam = @ITMSGRPNAM 
+--AND T3.InPrice = T5.Price
+--and X.ItemCode = @ITEMCODE 
+ORDER BY X.ItemCode 
+
+SELECT T0.ItemCode,ISNULL(SUM(T0.InQty),0) - ISNULL(SUM(T0.OutQty),0) [OpeningBalance],MAX(T0.CalcPrice) [Price] 
+INTO #OPENING_NONBATCH
+FROM OINM T0
+INNER JOIN OITM T1 ON T1.ItemCode = T0.ItemCode 
+WHERE DocDate < @OPENINGDATE
+AND T1.ManBtchNum = 'N'
+GROUP BY T0.ItemCode 
+
+SELECT T0.ItemCode,ISNULL(SUM(T0.InQty),0) [InQty],MAX(T0.CalcPrice) [InPrice] 
+INTO #INSTOCK_NONBATCH
+FROM OINM T0
+INNER JOIN OITM T1 ON T1.ItemCode = T0.ItemCode 
+WHERE T0.DocDate >= @FROMDATE and T0.DocDate <= @TODATE
+AND T1.ManBtchNum = 'N'
+GROUP BY T0.ItemCode
+
+SELECT T0.ItemCode,ISNULL(SUM(T0.OutQty),0) [OutQty],MAX(T0.CalcPrice) [OutPrice] 
+INTO #OUTSTOCK_NONBATCH
+FROM OINM T0
+INNER JOIN OITM T1 ON T1.ItemCode = T0.ItemCode 
+WHERE T0.DocDate >= @FROMDATE and T0.DocDate <= @TODATE
+AND T1.ManBtchNum = 'N'
+GROUP BY T0.ItemCode
+
+SELECT T0.ItemCode,ISNULL(SUM(T0.InQty),0) - ISNULL(SUM(T0.OutQty),0) [ClosingQty],MAX(T0.CalcPrice) [Price] 
+INTO #CLOSING_NONBATCH
+FROM OINM T0
+INNER JOIN OITM T1 ON T1.ItemCode = T0.ItemCode 
+WHERE DocDate <= @TODATE 
+AND T1.ManBtchNum = 'N'
+GROUP BY T0.ItemCode 
+
+SELECT distinct T0.ItemCode,T0.ItemName,'' [Batch No],
+'' [Month/Year],
+T0.U_znr [Drawing No],ISNULL(T2.OpeningBalance,0) [OpeningBalanceQty],ISNULL(T2.Price,0) [Stock price per unit],
+ISNULL(T2.OpeningBalance,0) * ISNULL(T2.Price,0) [Cost Opening Balance],
+ISNULL(T3.InQty,0) [Stock In],ISNULL(T4.OutQty,0) [Stock Out],--ISNULL(T2.OpeningQty,0) + ISNULL(T3.InQty,0) - ISNULL(T4.OutQty,0) [Qty End Balance],
+--ISNULL(T3.InPrice,0) [Stock In Cost],
+--ISNULL(T4.OutPrice,0) [Stock out Cost],
+ISNULL(T3.InPrice,0) * ISNULL(T3.InQty,0) [Stock In Cost],
+ISNULL(T4.OutPrice,0) * ISNULL(T4.OutQty,0) [Stock out Cost],
+ISNULL(T5.ClosingQty,0) [Qty End Balance],ISNULL(T5.ClosingQty,0) * T5.Price [Cost Closing Balance]
+INTO #AGEING_NONBATCH
+FROM #ONHAND X
+INNER JOIN OITM T0 ON X.ItemCode = T0.ItemCode
+INNER JOIN OITB T1 ON T1.ItmsGrpCod = T0.ItmsGrpCod 
+LEFT JOIN #OPENING_NONBATCH T2 ON T2.ItemCode = T0.ItemCode 
+LEFT JOIN #CLOSING_NONBATCH T5 ON T5.ItemCode = T0.ItemCode 
+LEFT JOIN #INSTOCK_NONBATCH T3 ON T3.ItemCode = T0.ItemCode 
+LEFT JOIN #OUTSTOCK_NONBATCH T4 ON T4.ItemCode = T0.ItemCode 
+WHERE T1.ItmsGrpNam = @ITMSGRPNAM 
+ORDER BY T0.ItemCode 
+
+SELECT * 
+,(select Top 1 LogoImage from OADP) as LogoImage,(SELECT CompnyName FROM OADM ) AS CompnyName,(SELECT A.AliasName FROM OADM A ) AS AliasName,
+(SELECT B.StreetNo FROM ADM1 B) AS StreetNo,(SELECT A.Phone1 FROM OADM A) AS Phone1, (SELECT  A.Fax FROM OADM A) AS Fax,
+(SELECT  B.IntrntAdrs FROM ADM1 B)AS IntrntAdrs
+ FROM (
+SELECT * FROM #AGEING WHERE [Cost Closing Balance] > 0 
+UNION ALL
+SELECT * FROM #AGEING_NONBATCH WHERE [Cost Closing Balance] > 0
+)TAB_FINAL
+--WHERE ItemCode = @ITEMCODE
+ORDER BY 1 
+
+DROP TABLE #BATCHLIST
+DROP TABLE #ONHAND
+DROP TABLE #OPENING_BATCH 
+DROP TABLE #INQTY_BATCH 
+DROP TABLE #OUTQTY_BATCH 
+--DROP TABLE #CLOSING_BATCH_1
+DROP TABLE #CLOSING_BATCH 
+DROP TABLE #AGEING 
+DROP TABLE #OPENING_NONBATCH 
+DROP TABLE #INSTOCK_NONBATCH 
+DROP TABLE #OUTSTOCK_NONBATCH 
+DROP TABLE #CLOSING_NONBATCH 
+DROP TABLE #AGEING_NONBATCH
+
+END
